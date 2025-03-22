@@ -77,9 +77,9 @@ const Sidebar: FC<ISidebarProps> = ({
       {/* <a className="flex flex-shrink-0 p-4" href="https://langgenius.ai/" target="_blank">
         <Card><div className="flex flex-row items-center"><ChatBubbleOvalLeftEllipsisSolidIcon className="text-primary-600 h-6 w-6 mr-2" /><span>LangGenius</span></div></Card>
       </a> */}
-      <div className="flex flex-shrink-0 pr-4 pb-4 pl-4">
+      {/* <div className="flex flex-shrink-0 pr-4 pb-4 pl-4">
         <div className="text-gray-400 font-normal text-xs">© {copyRight} {(new Date()).getFullYear()}</div>
-      </div>
+      </div> */}
     </div>
   )
 }
